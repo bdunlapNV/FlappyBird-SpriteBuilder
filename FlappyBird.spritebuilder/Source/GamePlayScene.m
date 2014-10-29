@@ -12,6 +12,7 @@
     [self addObstacle];
     
     
+    
 }
 
 -(void)update:(CCTime)delta
@@ -23,6 +24,7 @@
 - (void)TouchBegan:(UITouch *)touch withEvent:(UITouch *)event {
     //this will get called every time the player touches the screen
     [character flap];
+    float timeSinceObstacle;
     
 }
 
